@@ -26,6 +26,7 @@ router.route('/')
 
         res.json({
             message:'User created successfully',
+            users,
             status: true,
         })
     })
